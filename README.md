@@ -1,6 +1,6 @@
 # FloatigLableTextField
 
-[![CI Status](https://img.shields.io/travis/encoresky/FloatigLableTextField.svg?style=flat)](https://travis-ci.org/Ankush Lokhande/FloatigLableTextField)
+[![CI Status](https://img.shields.io/travis/encoresky/FloatigLableTextField.svg?style=flat)](https://travis-ci.org/encoresky/FloatigLableTextField)
 [![Version](https://img.shields.io/cocoapods/v/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
 [![License](https://img.shields.io/cocoapods/l/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
 [![Platform](https://img.shields.io/cocoapods/p/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
