@@ -8,7 +8,10 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ![Screenshot](https://s10.gifyu.com/images/onFocus.gif) ![Screenshot](https://s10.gifyu.com/images/onChange.gif)
+
+
 ## Requirements
 
 ## Installation
