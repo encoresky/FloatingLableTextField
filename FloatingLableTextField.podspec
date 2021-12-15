@@ -22,7 +22,7 @@ s.description      = <<-DESC
                      DESC
 
 s.homepage         = 'https://github.com/encoresky/FloatingLableTextField'
-# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.screenshots     = 'https://s10.gifyu.com/images/onFocusText.gif', 'https://s10.gifyu.com/images/onChangeText.gif'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Encoresky Technologies Pvt. Ltd.' => 'encoresky@gmail.com' }
 s.source           = { :git => 'https://github.com/encoresky/FloatingLableTextField.git', :tag => s.version.to_s }
