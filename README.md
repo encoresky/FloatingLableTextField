@@ -1,9 +1,9 @@
-# FloatigLableTextField
+# FloatingLableTextField
 
-[![CI Status](https://img.shields.io/travis/encoresky/FloatigLableTextField.svg?style=flat)](https://travis-ci.org/encoresky/FloatigLableTextField)
-[![Version](https://img.shields.io/cocoapods/v/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
-[![License](https://img.shields.io/cocoapods/l/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
-[![Platform](https://img.shields.io/cocoapods/p/FloatigLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatigLableTextField)
+[![CI Status](https://img.shields.io/travis/encoresky/FloatingLableTextField.svg?style=flat)](https://travis-ci.org/encoresky/FloatingLableTextField)
+[![Version](https://img.shields.io/cocoapods/v/FloatingLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatingLableTextField)
+[![License](https://img.shields.io/cocoapods/l/FloatingLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatingLableTextField)
+[![Platform](https://img.shields.io/cocoapods/p/FloatingLableTextField.svg?style=flat)](https://cocoapods.org/pods/FloatingLableTextField)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-FloatigLableTextField is available through [CocoaPods](https://cocoapods.org). To install
+FloatingLableTextField is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FloatigLableTextField'
+pod 'FloatingLableTextField'
 ```
 
 ## Author
 
-Encoresky Technologies Pvt. Ltd., encoresky@gmail.com
+EncoreSky Technologies Pvt. Ltd., encoresky@gmail.com
 
 ## License
 
-FloatigLableTextField is available under the MIT license. See the LICENSE file for more info.
+FloatingLableTextField is available under the MIT license. See the LICENSE file for more info.

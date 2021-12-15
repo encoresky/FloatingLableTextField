@@ -1,16 +1,16 @@
 PODS:
-  - FloatigLableTextField (0.1.0)
+  - FloatingLableTextField (0.1.0)
 
 DEPENDENCIES:
-  - FloatigLableTextField (from `../`)
+  - FloatingLableTextField (from `../`)
 
 EXTERNAL SOURCES:
-  FloatigLableTextField:
+  FloatingLableTextField:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FloatigLableTextField: 69967a51eece26362b59822275c86feaa19d26d3
+  FloatingLableTextField: 9f9e6f60bb9845c676c2b35b1f9bfd2250b83f9d
 
-PODFILE CHECKSUM: 6b96ade10c7f814c2c8aa30c2b7452b292597e3a
+PODFILE CHECKSUM: d63a8116ccc8b2a7dd558066e098a859ea33636c
 
 COCOAPODS: 1.11.2

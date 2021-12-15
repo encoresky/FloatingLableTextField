@@ -1,5 +1,5 @@
 import XCTest
-import FloatigLableTextField
+import FloatingLableTextField
 
 class Tests: XCTestCase {
     

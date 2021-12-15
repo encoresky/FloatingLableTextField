@@ -1,0 +1,6 @@
+framework module FloatingLableTextField {
+  umbrella header "FloatingLableTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

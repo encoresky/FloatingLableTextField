@@ -1,0 +1,6 @@
+framework module Pods_FloatingLableTextField_Example {
+  umbrella header "Pods-FloatingLableTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

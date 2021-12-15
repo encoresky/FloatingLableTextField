@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FloatigLableTextField.xcscheme</key>
+		<key>FloatingLableTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FloatigLableTextField_Example.xcscheme</key>
+		<key>Pods-FloatingLableTextField_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FloatigLableTextField_Tests.xcscheme</key>
+		<key>Pods-FloatingLableTextField_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

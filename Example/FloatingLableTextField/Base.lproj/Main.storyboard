@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="FloatingLableTextField_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="onFocus" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ynJ-L6-qCH" customClass="FloatingLableTextField" customModule="FloatingLableTextField">
+                                <rect key="frame" x="36" y="30" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialPlaceholderEnable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="floatingOnFocus" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="advanceAnimation" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                        <color key="value" systemColor="linkColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="onChange" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fDl-sg-QTf" customClass="FloatingLableTextField" customModule="FloatingLableTextField">
+                                <rect key="frame" x="36" y="94" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialPlaceholderEnable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="floatingOnFocus" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="advanceAnimation" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                        <color key="value" systemColor="linkColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Simple" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xoo-C4-FGH" customClass="FloatingLableTextField" customModule="FloatingLableTextField">
+                                <rect key="frame" x="36" y="158" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialPlaceholderEnable" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="onFocus+Linear" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nZC-2b-6FJ" customClass="FloatingLableTextField" customModule="FloatingLableTextField">
+                                <rect key="frame" x="36" y="222" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialPlaceholderEnable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="floatingOnFocus" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="advanceAnimation" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                        <color key="value" systemColor="linkColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="onChange+Linear" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zo5-Cz-rZe" customClass="FloatingLableTextField" customModule="FloatingLableTextField">
+                                <rect key="frame" x="36" y="286" width="303" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="materialPlaceholderEnable" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="floatingOnFocus" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="advanceAnimation" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                        <color key="value" systemColor="linkColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ynJ-L6-qCH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="9Ej-Et-mqy"/>
+                            <constraint firstItem="nZC-2b-6FJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="9Qh-gi-ORg"/>
+                            <constraint firstItem="fDl-sg-QTf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="La0-aB-vAt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zo5-Cz-rZe" secondAttribute="trailing" constant="20" id="STm-at-J6g"/>
+                            <constraint firstItem="nZC-2b-6FJ" firstAttribute="top" secondItem="Xoo-C4-FGH" secondAttribute="bottom" constant="30" id="VLb-4h-e7m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fDl-sg-QTf" secondAttribute="trailing" constant="20" id="X1Q-xq-3oZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ynJ-L6-qCH" secondAttribute="trailing" constant="20" id="co0-rp-way"/>
+                            <constraint firstItem="fDl-sg-QTf" firstAttribute="top" secondItem="ynJ-L6-qCH" secondAttribute="bottom" constant="30" id="dpP-cb-C98"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xoo-C4-FGH" secondAttribute="trailing" constant="20" id="eVm-BX-Jw5"/>
+                            <constraint firstItem="Xoo-C4-FGH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="fVY-gB-D5R"/>
+                            <constraint firstItem="Xoo-C4-FGH" firstAttribute="top" secondItem="fDl-sg-QTf" secondAttribute="bottom" constant="30" id="gRc-jZ-iQz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nZC-2b-6FJ" secondAttribute="trailing" constant="20" id="kgI-6C-6DJ"/>
+                            <constraint firstItem="ynJ-L6-qCH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="n6h-yO-FfO"/>
+                            <constraint firstItem="zo5-Cz-rZe" firstAttribute="top" secondItem="nZC-2b-6FJ" secondAttribute="bottom" constant="30" id="tx6-KA-r7j"/>
+                            <constraint firstItem="zo5-Cz-rZe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="u36-mv-V7R"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="133"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="Xoo-C4-FGH">
+            <size key="intrinsicContentSize" width="78" height="34"/>
+        </designable>
+        <designable name="fDl-sg-QTf">
+            <size key="intrinsicContentSize" width="100" height="34"/>
+        </designable>
+        <designable name="nZC-2b-6FJ">
+            <size key="intrinsicContentSize" width="137.5" height="34"/>
+        </designable>
+        <designable name="ynJ-L6-qCH">
+            <size key="intrinsicContentSize" width="89.5" height="34"/>
+        </designable>
+        <designable name="zo5-Cz-rZe">
+            <size key="intrinsicContentSize" width="148.5" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

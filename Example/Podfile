@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'FloatigLableTextField_Example' do
-  pod 'FloatigLableTextField', :path => '../'
+target 'FloatingLableTextField_Example' do
+  pod 'FloatingLableTextField', :path => '../'
 
-  target 'FloatigLableTextField_Tests' do
+  target 'FloatingLableTextField_Tests' do
     inherit! :search_paths
 
     
